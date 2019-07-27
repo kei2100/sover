@@ -43,4 +43,4 @@ v1.10.0
 
 or
 
-download binary
+[download binary](https://github.com/kei2100/sover/releases)

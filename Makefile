@@ -35,3 +35,12 @@ test:
 .PHONY: test.nocache
 test.nocache:
 	go test -count=1 -v -race $(PACKAGES)
+
+.PHONY: release.snapshot
+release.snapshot:
+	goreleaser --snapshot --rm-dist
+
+.PHONY: release
+release:
+	goreleaser --rm-dist
+
