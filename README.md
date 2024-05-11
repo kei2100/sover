@@ -39,7 +39,7 @@ v1.10.0
 
 ## install
 
-`$ go get github.com/kei2100/sover`
+`$ go install github.com/kei2100/sover@latest`
 
 or
 
